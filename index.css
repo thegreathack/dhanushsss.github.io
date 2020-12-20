@@ -1,0 +1,106 @@
+/*Font alone */
+
+.body {
+  font-family: "Josefin Sans", sans-serif;
+}
+/*misc*/
+.p-head {
+  padding-bottom: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.navigation {
+  background-color: #fff3b2;
+}
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+/*pic */
+.main-tag {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  color: #fff;
+}
+.main {
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.heading {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.image {
+  width: 200px;
+  border-radius: 50%;
+}
+.btn-grad {
+  background: #fdb827;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0;
+  border: none;
+}
+.btn {
+  color: black;
+}
+.btn:hover {
+  color: black;
+}
+.btn-grad:hover {
+  background-color: greenyellow;
+}
+
+/*About-Me*/
+.about-tag {
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.lead {
+  padding-bottom: 20px;
+}
+
+/*Education*/
+.edu-h1 {
+  padding: 30px;
+}
+.edu-tag {
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.cover-heading {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+/*Skills*/
+
+.skill-tag {
+  list-style-type: none;
+}
+.main-es {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.skillss {
+  text-align: center;
+}
+
+/*Contact*/
+.fa {
+  font-size: 30px;
+  padding: 20px;
+}
+.p-foot {
+  margin: 0;
+}
