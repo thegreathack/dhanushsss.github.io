@@ -104,3 +104,10 @@ html {
 .p-foot {
   margin: 0;
 }
+i {
+  color: #fff;
+}
+i:hover {
+  color: blue;
+}
+
