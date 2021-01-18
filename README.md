@@ -6,8 +6,17 @@
 
 ## I'm a Developer !
 
-- 🔭 I’m currently working on Application as well Web Development .
-- 🌱 I’m currently learning Flutter and React Native.
+
+![git](https://user-images.githubusercontent.com/51916493/104953501-872d9f00-59ec-11eb-8d0e-ccb476b24682.gif)
+
+
+
+
+
+
+
+- 🖥 I’m currently working on Application as well Web Development .
+- ☺️ I’m currently learning Flutter and React Native.
 
 ### Connect with me:
 
@@ -23,7 +32,8 @@
 <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
-<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+
+<img align="left" alt="Dart" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/dart/dart.png" />
 
 <br />
 <br />
