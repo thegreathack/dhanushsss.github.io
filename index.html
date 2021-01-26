@@ -1,14 +1,8 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--fontAPI-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap"
-      rel="stylesheet"
-    />
 
     <!--FontAwesome-->
     <link
@@ -17,6 +11,7 @@
     />
     <!--Css-->
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="mediaquery.css" />
     <!--BootStrap Css-->
     <link
       rel="stylesheet"
@@ -40,12 +35,18 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!--Anime-->
+    <div id="particles-js"></div>
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- stats.js lib -->
     <title>Portfolio</title>
   </head>
   <body class="body">
-    <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light navigation">
-      <a class="navbar-brand" href="#">Dhanushs</a>
+    <!--Nabar-->
+    <nav class="navbar navbar-expand-lg navbar-dark navigation">
+      <a class="navbar-brand active">Dhanushs</a>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -61,130 +62,209 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto m-3">
           <li class="nav-item">
-            <a class="nav-link" href="#aboutme">About </a>
+            <a class="nav-link active" href="#aboutme">About </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#education">Education </a>
+            <a class="nav-link active" href="#education">Education </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link active" href="#skills">Skills</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link active" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
-
-    <!--Main-->
+    <!--Home-->
     <section id="#">
-      <div class="main main-tag">
+      <div class="main main-tag container">
         <div class="container text-center main">
-          <img src="image/dhanushs.jpeg" class="image" />
-          <h1 class="heading">I'm Dhanush S ! 👨🏻‍💻</h1>
+          <img src="dhanushs.jpeg" class="image" />
+          <h1 class="h-tag">I'm Dhanush S ! 👨🏻‍💻</h1>
           <p class="lead">
             I am an IT undergraduate currently pursuing my Btech from KCG
             College of Techonology 👨🏻‍🏫 .Additionally I am an Web Developer 🖥 and
             a Application Development 📱 Learning Enthusiast 😊
           </p>
-
           <button class="btn-grad">
-            <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-191da.appspot.com/o/DhanushsCV.pdf?alt=media&token=8ea12a98-02d2-4ee3-b4c5-683353595c2e" class="btn btn-lg">Download My Resume</a>
+            <a
+              href="https://firebasestorage.googleapis.com/v0/b/portfolio-191da.appspot.com/o/DhanushsCV.pdf?alt=media&token=8ea12a98-02d2-4ee3-b4c5-683353595c2e"
+              class="btn btn-lg"
+              >Download My Resume</a
+            >
           </button>
         </div>
       </div>
     </section>
-
     <section id="aboutme">
       <div class="about-tag">
         <div class="container text-center">
-          <h1 class="heading">About Me ! 🙍🏻‍♂️</h1>
-          <p class="lead">
-            I am as of now seeking after my Btech in Information Technology from
-            KCG College of Technology 👨🏻‍🎓 . I am an Web Developer 🖥 as well
-            Mobile Application Developer 📱 . I consider myself to be a
-            proficient IT Industry engineer in the forthcoming future 😇 . I am
-            additionally intrigued by Cloud Computing Too ☁️
-          </p>
-          <h1 class="p-head">Personal Interests</h1>
-          <p class="lead">
-            I am a music lover 🎶 and I am also fond of Traveling ✈️ . Apart
-            from that I like watching Movies 🍿 and I enjoy reading Sci-fi facts
-            👨🏻‍💻 .
-          </p>
-          <h1 class="p-head">Personal Details</h1>
-          <p>🙍🏻‍♂️ Name : Dhanush S</p>
-          <p>📆 Date of Birth : 08 June 2001</p>
-          <p>📢 Address : Salem , TamilNadu</p>
-          <p>✉️ Email : sdhanushit@gmail.com</p>
-          <p>☎️ Phone : +91-6382224611</p>
-        </div>
-      </div>
-    </section>
-    <section id="education">
-      <div class="edu-tag text-center main-tag">
-        <h1 class="edu-h1">Education</h1>
+          <div class="div-tag">
+            <h1 class="heading">About Me ! 🚶🏻‍♂️</h1>
+            <p class="lead" id="lead">
+              I am as of now seeking after my Btech in Information Technology
+              from KCG College of Technology 👨🏻‍🎓 . I am an Web Developer 🖥 as
+              well Mobile Application Developer 📱 . I consider myself to be a
+              proficient IT Industry engineer in the forthcoming future 😇 . I
+              am additionally intrigued by Cloud Computing Too ☁️
+            </p>
+          </div>
+          <div class="div-tag">
+            <h1 class="p-head">Personal Interests</h1>
 
-        <div class="row">
-          <div class="col-lg-4">
-            <p>
-              ➡️ College 🏫 -- BTech in Information technology August 2018 –
-              Ongoing 👨🏻‍🎓
+            <p class="lead" id="lead">
+              I am a music lover 🎶 and I am also fond of Traveling ✈️ . Apart
+              from that I like watching Movies 🍿 and I enjoy reading Sci-fi
+              facts 👨🏻‍💻 .
             </p>
           </div>
-          <div class="col-lg-4">
-            <p>
-              ➡️ Higher Secondary Examination 📚 - 2018 SRK Matriculation Higher
-              Secondary School ,June 2016 – April 2018,Passout with 70% 🙂
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <p>
-              ➡️ High School Examination📔 -2016 Golden Rays Matriculation
-              School,Apr 2014 – March 2016 ,Passout with 91.5% 😇
-            </p>
+          <div class="div-tag">
+            <h1 class="p-head">Personal Details</h1>
+            <div id="lead">
+              <p>🙍🏻‍♂️ Name : Dhanush S</p>
+              <p>📆 Date of Birth : 08 June 2001</p>
+              <p>📢 Address : Salem , TamilNadu</p>
+              <p>✉️ Email : sdhanushit@gmail.com</p>
+              <p>☎️ Phone : +91-6382224611</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="skills">
-      <div class="skill-tag main-es">
-        <div class="container text-center">
+    <!--Edu-->
+    <section id="education">
+      <div class="edu-tag text-center container">
+        <h1 class="edu-h1">Education 📚</h1>
+        <div class="text-center" id="main-tag">
           <div class="row">
-            <div class="col-sm-6">
-              <h1 class="cover-heading">Skills</h1>
-              <ul class="skill-tag">
-                <li>➡️ JavaScript ⭐️ ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ Java ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ HTML ⭐️ ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ Css ⭐️ ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ BootStrap ⭐️ ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ C ⭐️ ⭐️ ⭐️</li>
-                <li>➡️ Python ⭐️ ⭐️</li>
-              </ul>
+            <div class="div-tag-edu">
+              <p>
+                ➡️ College 🏫 -- BTech in Information technology August 2018 –
+                Ongoing 👨🏻‍🎓
+              </p>
             </div>
-            <div class="col-sm-6">
-              <h1 class="cover-heading">Other</h1>
-              <ul class="skill-tag">
-                <li>➡️ Web Development ⭐️ ⭐️ ⭐️ ⭐</li>
-                <li>➡️ Application Development(Learning..) 😊</li>
-                <li>➡️ Cloud Computing(Learning..) 😊</li>
-              </ul>
+            <div class="div-tag-edu">
+              <p>
+                ➡️ Higher Secondary Examination 📚 - 2018 SRK Matriculation
+                Higher Secondary School ,June 2016 – April 2018,Passout with 70%
+                🙂
+              </p>
+            </div>
+            <div class="div-tag-edu">
+              <p>
+                ➡️ High School Examination📔 -2016 Golden Rays Matriculation
+                School,Apr 2014 – March 2016 ,Passout with 91.5% 😇
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section>
+      <div role="div" class="text-center">
+        <div class="skill-tag main-es">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-sm-6 skils-tag">
+                <h1 class="cover-heading">Skills 😃</h1>
+
+                <ul class="skill-tag">
+                  <li>➡️ JavaScript ⭐️ ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ Java ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ HTML ⭐️ ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ Css ⭐️ ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ BootStrap ⭐️ ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ C ⭐️ ⭐️ ⭐️</li>
+                  <li>➡️ Python ⭐️ ⭐️</li>
+                </ul>
+              </div>
+              <br />
+              <div class="col-sm-6 skils-tag" id="skills">
+                <h1 class="cover-heading">Other 😇</h1>
+                <ul class="skill-tag">
+                  <li>➡️ Web Development ⭐️ ⭐️ ⭐️ ⭐</li>
+                  <li>➡️ Application Development(Learning..)</li>
+                  <li>➡️ Cloud Computing(Learning..) 😊</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container1 contact-form text-center" id="contacts">
+      <form method="post">
+        <h3>Get In Touch 🤔</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtName"
+                class="form-control"
+                placeholder="Your Name *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtEmail"
+                class="form-control"
+                placeholder="Your Email *"
+                value=""
+              />
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                name="txtPhone"
+                class="form-control"
+                placeholder="Your Phone Number *"
+                value=""
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea
+                name="txtMsg"
+                class="form-control"
+                placeholder="Your Message *"
+                style="width: 100%; height: 150px"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="form-group">
+              <p>
+                <a class="btn btn-grad">Message</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
     <section id="contact">
-      <footer class="container-fluid text-center main-tag">
-        <a href="https://www.instagram.com/dhanusraj_/"><i class="fa fa-instagram"></i></a>
-        <a href="https://www.facebook.com/dhanush.919821/"><i class="fa fa-facebook"></i></a>
+      <footer class="container-fluid text-center foot-tag">
+        <a href="https://www.instagram.com/dhanusraj_/"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/dhanush.919821/"
+          ><i class="fa fa-facebook"></i
+        ></a>
         <a href="https://github.com/dhanushsss"><i class="fa fa-github"></i></a>
-        <a href="https://twitter.com/Dhanush43094074"><i class="fa fa-twitter"></i></a>
+        <a href="https://twitter.com/Dhanush43094074"
+          ><i class="fa fa-twitter"></i
+        ></a>
 
         <p class="p-foot">&copy; 2021 DhanushS, Inc.</p>
       </footer>
     </section>
+
+    <script src="anime.js"></script>
   </body>
 </html>
